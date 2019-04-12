@@ -1,0 +1,22 @@
+{
+  "license": "MIT",
+  "name": "preactz",
+  "version": "1.0.0",
+  "description": "Preact X + DomZ in a single package",
+  "author": "Silvio Henrique Ferreira <shferreira@me.com>",
+  "repository": "https://github.com/shff/preactz",
+  "scripts": {
+    "build": "microbundle main.mjs -f es,umd --external false --no-sourcemap --target web"
+  },
+  "dependencies": {
+    "domz": "^1.0.0",
+    "preact": "^10.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "module": "index.mjs",
+  "main": "index.js",
+  "umd:main": "index.js",
+  "unpkg": "index.js"
+}
