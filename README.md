@@ -24,7 +24,7 @@ Or, if you want to skip the build step and use the browser's native modules, you
 
 ```html
 <script type="module">
-import { h, useState, render } from "https://unpkg.com/preactz@^1.0.0/index.mjs";
+import { h, useState, render } from "https://unpkg.com/preactz/index.mjs";
 </script>
 ```
 
@@ -61,7 +61,7 @@ render(h(App), document.body);
 Hooks are available in the default scope.
 
 ```js
-import { h, useState, useRef, render } from "https://unpkg.com/preactz@^1.0.0/index.mjs";
+import { h, useState, useRef, render } from "https://unpkg.com/preactz/index.mjs";
 ```
 
 ### Fragments
@@ -86,7 +86,7 @@ Putting it all together, here's a small app:
     <meta charset="UTF-8">
     <title>Document</title>
     <script type="module">
-      import { h, render } from "https://unpkg.com/preactz@^1.0.0/index.mjs";
+      import { h, render } from "https://unpkg.com/preactz/index.mjs";
 
       const App = () => [
         h.h1("It works!"),
