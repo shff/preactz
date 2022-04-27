@@ -13,7 +13,7 @@
     "preact": "^10.0.0-rc.3"
   },
   "devDependencies": {
-    "microbundle": "^0.13.0"
+    "microbundle": "^0.15.0"
   },
   "module": "index.mjs",
   "main": "index.js",
