@@ -6,13 +6,15 @@
   "author": "Silvio Henrique Ferreira <shferreira@me.com>",
   "repository": "https://github.com/shff/preactz",
   "scripts": {
-    "build": "microbundle main.mjs -f es,umd --external false --no-sourcemap --target web"
+    "build": "microbundle main.mjs -f es,umd --external false --no-sourcemap --target web",
+    "e2e": "cypress run -C false --config video=false,integrationFolder=test,supportFile=false,pluginsFile=false,testFiles=**/*.spec.js"
   },
   "dependencies": {
     "domz": "^1.0.0",
     "preact": "^10.7.2"
   },
   "devDependencies": {
+    "cypress": "^9.7.0",
     "microbundle": "0.15.0"
   },
   "module": "index.mjs",
