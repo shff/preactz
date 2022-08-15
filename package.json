@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "cypress": "^9.7.0",
-    "microbundle": "0.15.0"
+    "microbundle": "0.15.1"
   },
   "module": "index.mjs",
   "main": "index.js",
