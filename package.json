@@ -14,7 +14,7 @@
     "preact": "^10.7.2"
   },
   "devDependencies": {
-    "cypress": "^9.7.0",
+    "cypress": "^15.3.0",
     "microbundle": "0.15.1"
   },
   "module": "index.mjs",
