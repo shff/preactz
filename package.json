@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "domz": "^1.0.0",
-    "preact": "^10.7.2"
+    "preact": "^11.0.0"
   },
   "devDependencies": {
     "cypress": "^9.7.0",
