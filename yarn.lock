@@ -3784,9 +3784,9 @@ postcss@^8.2.1:
     source-map-js "^1.2.1"
 
 preact@^11.0.0:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-11.0.2.tgz#c7ec85ec0d495ef5cdb83a16f9d0f31edae21ace"
-  integrity sha512-ofG+Lqznbt13JKDjdWPLTo5ONBqcNgidqnLRzJBG6PZjzGXOLRd5y9r448+HUofTyDbgKWVrPhHP0IgcxEZslQ==
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-11.1.0.tgz#7777232ce4ece8344d6e0ea4705dcce17f8df650"
+  integrity sha512-hz1VsjWx5pSYPDVEzb9w+XyOmQpP1qW/ZEaMiYm+C8ykJr8KP+TKGZIbCW0QmZ/Yr/jg3XkZoziEWn9iWHZ9Mw==
 
 pretty-bytes@^3.0.0:
   version "3.0.1"
